@@ -1,5 +1,7 @@
 # dsh-rtk-minimal
 
+[![npm](https://img.shields.io/npm/v/dsh-rtk-minimal?style=flat-square&logo=npm&logoColor=white&label=npm)](https://www.npmjs.com/package/dsh-rtk-minimal)
+
 Minimal DSH plugin: every `bash` tool call goes through
 [`rtk`](https://github.com/rtk-ai/rtk) before it runs.
 
