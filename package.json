@@ -1,0 +1,27 @@
+{
+  "name": "dsh-rtk-minimal",
+  "version": "0.1.0",
+  "description": "Minimal DSH plugin: rewrites every bash tool call through `rtk`.",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale/*.json"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "license": "MIT"
+}

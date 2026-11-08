@@ -1,0 +1,1 @@
+{ "meta": { "title": "RTK bash rewrite", "description": "Rewrites every bash tool call through rtk before it runs." } }

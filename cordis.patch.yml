@@ -1,0 +1,4 @@
+# rtk-minimal bundle patch: mounts the listener into the DSH cordis tree.
+- insert:
+    - id: rtk-minimal
+      name: 'dsh-rtk-minimal'

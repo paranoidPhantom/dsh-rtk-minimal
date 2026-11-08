@@ -1,0 +1,1 @@
+{ "meta": { "title": "RTK 命令改写", "description": "每次 bash 工具调用都先经 rtk 改写再执行。" } }
